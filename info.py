@@ -48,7 +48,7 @@ else:
 INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1002245381267').split()]
 if len(INDEX_CHANNELS) == 0:
     print('Info - INDEX_CHANNELS is empty')
-LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002204720453')
+LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1002153808288')
 if len(LOG_CHANNEL) == 0:
     print('Error - LOG_CHANNEL is missing, exiting now')
     exit()
@@ -64,7 +64,8 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://arpitgavla69:kumar6467@cluster0.f1xwgzx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://Lucky6467singh:kumar6467@cluster0.wv54pky.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+                         
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
@@ -113,13 +114,13 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'lucky8521singh@ybl')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002152874725")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002193904742")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://t.me/+80_X7wG6fUgzMjI1")
+URL = environ.get("URL", "https://t.me/+IgG8gunVH_4xNGM1")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
