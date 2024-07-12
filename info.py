@@ -64,7 +64,7 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://lucky7282singh:kumar6467@cluster0.mcw5djx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://vishalw7038:3xVj8TapezYEHspe@cluster0.tkmionl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
@@ -73,12 +73,12 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/hd_movie_and_webseries')
-OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/unique_hacker_2006")
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/hd_movies_and_webseries_channel')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/hd_movie_and_webseries')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/hd_movies_and_webseries_channel/16")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/hd_movies_and_webseries_channel/15")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+eiygq58NdThhNjg1')
+OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/RW7038")
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Movies_King_Update')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/Movies_King_Update')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Open_AllLinks/21")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_To_Open_AllLinks/19")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 120)) # Add time in seconds
@@ -88,8 +88,8 @@ LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'hindi en
 QUALITY = [quality.lower() for quality in environ.get('QUALITY', '360p 480p 720p 1080p 2160p').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "shareus.io")
-SHORTLINK_API = environ.get("SHORTLINK_API", "d8HZsNDpMeNfnLTdseDQ9IHkrTr2")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
@@ -109,18 +109,18 @@ SPELL_CHECK = is_enabled("SPELL_CHECK", True)
 SHORTLINK = is_enabled('SHORTLINK', True)
 
 #premium info
-PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/3e35eab6b0a05a5c2f241.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'lucky8521singh@ybl')
+PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/291f4ef3bfec5fd0fb8cc.jpg')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'anime.world@ybl')
 
 # for stream
 IS_STREAM = is_enabled('IS_STREAM', True)
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002193904742")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002222046627")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
     exit()
 else:
     BIN_CHANNEL = int(BIN_CHANNEL)
-URL = environ.get("URL", "https://t.me/+IgG8gunVH_4xNGM1")
+URL = environ.get("URL", "https://t.me/+Q8v7g9KpT4g5OTVl")
 if len(URL) == 0:
     print('Error - URL is missing, exiting now')
     exit()
