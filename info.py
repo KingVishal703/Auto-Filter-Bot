@@ -69,8 +69,8 @@ DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://wankedevishal:wXOMJisU
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-DATABASE_NAME = environ.get('DATABASE_NAME', "Animebot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AnimebotCOLLECTION')
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files')
 
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+eiygq58NdThhNjg1')
