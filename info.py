@@ -64,13 +64,13 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://wankhedevishal302:k2kA5aVDYdEHQR4Z@mkbot.wollttc.mongodb.net/?retryWrites=true&w=majority&appName=Mkbot")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://wankedevishal:wXOMJisUbsooyUQI@cluster0.hdd0bbt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-DATABASE_NAME = environ.get('DATABASE_NAME', "wankhedevishal302")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Animebot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AnimebotCOLLECTION')
 
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+eiygq58NdThhNjg1')
