@@ -69,7 +69,7 @@ DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://wankhedevishal302:k2kA
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-DATABASE_NAME = environ.get('DATABASE_NAME', "mkbot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "wankhedevishal302")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
