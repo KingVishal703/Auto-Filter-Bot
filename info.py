@@ -97,16 +97,16 @@ PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '1200'))
 
 # boolean settings
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 WELCOME = is_enabled('WELCOME', True)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
 LINK_MODE = is_enabled("LINK_MODE", True)
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
-IMDB = is_enabled('IMDB', False)
+IMDB = is_enabled('IMDB', True)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
-SHORTLINK = is_enabled('SHORTLINK', True)
+SHORTLINK = is_enabled('SHORTLINK', False)
 
 #premium info
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://graph.org/file/291f4ef3bfec5fd0fb8cc.jpg')
