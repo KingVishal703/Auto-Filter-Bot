@@ -88,8 +88,8 @@ LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'hindi en
 QUALITY = [quality.lower() for quality in environ.get('QUALITY', '360p 480p 720p 1080p 2160p').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "")
-SHORTLINK_API = environ.get("SHORTLINK_API", "")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = environ.get("SHORTLINK_API", "8cb42dcb724c2b970cc10b098132273359eaf0b8")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
@@ -97,7 +97,7 @@ PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '1200'))
 
 # boolean settings
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 WELCOME = is_enabled('WELCOME', True)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
