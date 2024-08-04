@@ -97,7 +97,7 @@ PM_FILE_DELETE_TIME = int(environ.get('PM_FILE_DELETE_TIME', '1200'))
 
 # boolean settings
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 WELCOME = is_enabled('WELCOME', True)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
@@ -126,7 +126,7 @@ if len(URL) == 0:
     exit()
 else:
     if URL.startswith(('https://', 'http://')):
-        if not URL.endswith("https://auto-filter-bot-jt2j.onrender.com/"):
+        if not URL.endswith("https://auto-filter-bot-5tzn.onrender.com/"):
             URL += '/'
     elif is_valid_ip(URL):
         URL = f'http://{URL}/'
